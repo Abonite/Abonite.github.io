@@ -4,3 +4,6 @@
 [submodule "themes/hexo-theme-zzz"]
 	path = themes/hexo-theme-zzz
 	url = https://github.com/harkerhand/hexo-theme-zzz.git
+[submodule "themes/hexo-theme-next"]
+	path = themes/hexo-theme-next
+	url = https://github.com/next-theme/hexo-theme-next.git
