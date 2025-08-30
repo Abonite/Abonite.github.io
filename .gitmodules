@@ -1,3 +1,6 @@
 [submodule "themes/hexo-theme-arknights"]
 	path = themes/hexo-theme-arknights
 	url = https://github.com/Yue-plus/hexo-theme-arknights.git
+[submodule "themes/hexo-theme-zzz"]
+	path = themes/hexo-theme-zzz
+	url = https://github.com/harkerhand/hexo-theme-zzz.git
