@@ -22,7 +22,7 @@ Matlab作为一个全能型软件兼解释型语言，在科研、工程设计�
 
 这里有一个非常经典的例子。我使用FL Studio写了一段简单的钢琴曲，将导出的音频文件放进Adobe Audition来看一看：
 
-![Audobe Audition](au.PNG)
+![](如何优化你的matlab程序/au.PNG "使用Adobe Audition查看音频频谱")
 
 ## 喝点咖啡，写点Java
 
