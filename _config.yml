@@ -98,8 +98,8 @@ ignore:
 
 # 渲染器设置
 marked:
-  prependRoot: true
-  postAsset: true
+  prependRoot: false
+  postAsset: false
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
