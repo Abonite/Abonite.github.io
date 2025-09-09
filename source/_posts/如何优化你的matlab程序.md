@@ -1,6 +1,7 @@
 ---
 title: 如何优化你的matlab程序
 date: 2025-08-30
+hidden: true
 tags:
 - matlab
 - optimize
