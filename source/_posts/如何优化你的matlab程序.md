@@ -42,12 +42,14 @@ Matlab作为一个全能型软件兼解释型语言，在科研、工程设计�
 Matlab与Java的关系是及其紧密的。Matlab向Java开放了大量的底层接口，用户在进行开发时可以选择直接将Java代码嵌入Matlab中。只要你的电脑里同时安装了matlab和jdk，无需过多操作，你就可以直接体验java带给你的便利。不过，MATLAB对Java的版本有要求，具体可以到[这里](https://www.mathworks.com/support/requirements/openjdk.html "matlab 官方说明")查看。推荐大家使用OpenJDK，下载zip版本，这个版本的组件似乎更加齐全。解压后，添加一个环境变量：
 
 ```powershell
-    %JAVA_HOME% = 解压路径
+%JAVA_HOME% = 解压路径
+```
 
 并且将
 
 ```powershell
-    "%JAVA_HOME%\bin"
+"%JAVA_HOME%\bin"
+```
 
 添加到Path下。如果是windows 11，不必写双引号。
 
@@ -56,7 +58,8 @@ Matlab与Java的关系是及其紧密的。Matlab向Java开放了大量的底层
 然后，打开你的matlab，在命令行执行
 
 ```matlab
-    jenv("system")
+jenv("system")
+```
 
 matlab就会自动调用你配置好的java。
 
@@ -67,6 +70,7 @@ matlab就会自动调用你配置好的java。
 为了防止安装VS这个巨无霸，我参照了[这个教程](https://blog.csdn.net/b1049112625/article/details/134524652 "CSDN 的好东西")，保证我最小安装一个可用的MSVC编译器，而不用安装动辄数十数百G的整个VS。安装好后，如果一切正常，打开matlab，运行
 
 ```matlab
-    mex -setup cpp
+mex -setup cpp
+```
 
 就应该能够成功配置。
